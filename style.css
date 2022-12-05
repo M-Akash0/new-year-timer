@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lobster&family=Poppins:wght@200&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./pexels-pixabay-327509.jpg);
+    flex-direction: column;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Carter One', cursive;
+}
+
+p{
+    font-size: 20px;
+}
+.new{
+    margin-top: 10px;
+    font-size: 35px;
+    color: chartreuse;
+    animation:example 10s infinite linear;
+}
+@keyframes example {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:rgb(0, 229, 255); left:200px; top:0px;}
+    50%  {color:blue; left:200px; top:200px;}
+    75%  {color:green; left:0px; top:200px;}
+    100% {color:rgb(157, 0, 255); left:0px; top:0px;}
+  }
+.counter{
+   display: flex;
+   gap: 9px;
+    margin-top: 10px;
+}
+.box{
+    width: 50px;
+    height: 50px;
+   
+}
+.box h2{
+    margin-top: 10px;
+    font-size: 30px;
+    background-color: rgba(32, 47, 64, 0.642);
+}
+.box small{
+    font-size: 13px;
+
+}
+@media (min-width:576px) {
+    p{
+        font-size: 28px;
+    }
+    .new{
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: 400px;
+    }
+    .counter{
+       display: flex;
+       gap: 9px;
+        margin-top: 10px;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        text-align: center;
+    }
+    .box h2{
+        font-size: 39px;
+    }
+    .box small{
+        font-size: 20px;
+    }
+}
+@media (min-width:768px) {
+    p{
+        font-size: 34px;
+    }
+    .new{
+        margin-top: 10px;
+        font-size: 9rem;
+        font-weight: 600px;
+    }
+    .counter{
+       display: flex;
+       gap: 9px;
+        margin-top: 10px;
+    }
+    .box{
+        width: 120px;
+        height: 120px;
+        text-align: center;
+    }
+    .box h2{
+        font-size: 45px;
+    }
+     .box small{
+        font-size: 28px;
+    }
+
+}
